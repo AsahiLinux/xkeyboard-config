@@ -22,7 +22,7 @@ xkb_symbols "basic" {
     key <AC07>  { [         j,          J,        dead_belowdot, dead_abovedot   ] };
     key <AC10>	{ [odiaeresis, Odiaeresis, dead_doubleacute, dead_belowdot ] };
     key <AC11>	{ [adiaeresis, Adiaeresis, dead_circumflex, dead_caron ] };
-    key <TLDE>	{ [dead_circumflex, degree,	U2032,    U2033	] };
+    key <LSGT>	{ [dead_circumflex, degree,	U2032,    U2033	] };
 
     key <BKSL>	{ [numbersign, apostrophe, rightsinglequotemark,   dead_breve ]	};
     key <AB01>	{ [         y,          Y,       guillemotright,    U203A 	] };
@@ -30,7 +30,7 @@ xkb_symbols "basic" {
     key <AB08>  { [     comma,  semicolon,       periodcentered,     multiply	] };
     key <AB09>	{ [    period,      colon,                U2026,     division 	] };
     key <AB10>	{ [     minus, underscore,               endash,     emdash	] };
-    key <LSGT>	{ [     less,     greater,                  bar, dead_belowmacron ] };
+    key <TLDE>	{ [     less,     greater,                  bar, dead_belowmacron ] };
 
     include "kpdl(comma)"
 
